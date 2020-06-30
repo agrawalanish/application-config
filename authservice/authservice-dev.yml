@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:oracle:thin:@localhost:1521:xe
     username: authdb
-    password: {cipher}940730b1a25e596e4a1f833823ac8113522ae49ab61dfbec617dbc64417ec508
+    password: "{cipher}940730b1a25e596e4a1f833823ac8113522ae49ab61dfbec617dbc64417ec508"
     driver-class-name: oracle.jdbc.OracleDriver
     testWhileIdle: true
     validationQuery: SELECT 1
